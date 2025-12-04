@@ -23,7 +23,7 @@ conda activate ML
 
 **追加で必要なパッケージをinstallする**
 ```
-conda install --user -c conda-forge scikit-learn pydot graphviz
+conda install -c conda-forge scikit-learn pydot graphviz
 ```
  * `conda-forge`という別のrepoを参照する必要がある
 
