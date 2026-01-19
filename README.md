@@ -82,7 +82,7 @@ conda info -e
 - $\mathrm{AMS}=\sqrt{2\left(\left(s+b+b_r\right) \log \left(1+\frac{s}{b+b_r}\right)-s\right)}$
   * `s` : Scoreでカットした後のsignalのイベント数
   * `b` : Scoreでカットした後のBGのイベント数の期待値
-  * `b_r` : `b`に対する系統効果
+  * `b_r` : `b`に対する系統効果。bの10%のときと, 30%のときで試してみましょう。
   * Weightをかける必要があることに注意
  
 # レポートの提出
