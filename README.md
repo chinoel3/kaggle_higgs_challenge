@@ -55,6 +55,14 @@ conda info -e
 - `Weight` : イベントにかけるべきweight (cross-sectionみたいなもの)
 - `EventId` : イベントの番号  
 
+### Event topology 
+<img width="500" height="380" alt="image" src="https://github.com/user-attachments/assets/151793e2-f8d7-4548-b7c6-ec96d19c0299" />
+- データに入っている $h \rightarrow \tau \tau$ イベント 
+- いわゆる "lephad" チャンネル : leptonically decaying tau + hadronically decaying tau
+- ATLAS jargonで, 再構成された"tau"というときは基本hadronic tauのjetを指します。
+- LeptonもLHCでは基本再構成された $e/\mu$ のことを指します。
+- BGを落とすためにこの解析ではさらにinitial state radiation jet (ISR) という, high pTのjetがものがついているイベントだけを見ています。
+
 ### Kinematic variables 
 - PRI_xxx :  low level feature
    * jet, tau, leptonとかの4-vector
