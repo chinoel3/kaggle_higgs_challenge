@@ -66,7 +66,7 @@ conda info -e
 
 Background イベント (BG) 
 - 基本的に信号と同じ終状態のイベントがBGになります : $e/\mu$ が1つ + $\tau_h$ が1つ + jetが最低1つ + そこそこ立派なmissing ET
-- 主な物理プロセス : $Z \rightarrow \tau\tau$, $t\bar{t} \rightarrow b\tau\nub\tau\nu$, $W(\rightarrow e/\mu \nu)$+fake $\tau_h$ (jetが誤って $\tau_h$ と同定されるもの)
+- 主な物理プロセス : $Z \rightarrow \tau\tau$, $t\bar{t} \rightarrow b\tau\nu b\tau\nu$, $W(\rightarrow e/\mu + \nu)$+fake $\tau_h$ (jetが誤って $\tau_h$ と同定されるもの)
 
 
 ### Kinematic variables 
