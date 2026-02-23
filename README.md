@@ -41,6 +41,23 @@ conda info -e
 ```
 目的に応じて環境を使い分けた方がよい（じゃないと一回インストールしたらバージョン管理が不可能になる）
 
+# Training/Testデータのダウンロード
+[ここ](https://drive.google.com/drive/folders/165-N-O6XOZJMZavvvPmChyzWF3U9H-Oz?usp=sharing)に置いてあります。
+ダウンロードしてもらってもよいし、[テストスクリプト](https://github.com/HiggsIsBoson/kaggle_higgs_challenge/blob/main/test_DNN.ipynb)のようにコードの中にダウンロード操作を埋め込んでもらってもよいです。
+```
+import os, urllib.request
+def download(url, output) : 
+    if not os.path.exists(output):
+        print(f"{output} not found. Downloading...")
+        urllib.request.urlretrieve(url, output)
+    else:
+        print(f"{output} already exists. Skip download.")
+
+download("https://drive.google.com/uc?id=1JPOVfYXJNXeBgG_V0auiuK5W2CvP4_td", "training.csv")
+download("https://drive.google.com/uc?id=11W8QiL98fEqV7Xfbw-xgXCC7G-SM1yMb", "test.csv")
+```
+
+
 
 # VS codeで走らせる
 - Vidual Studio Code (https://code.visualstudio.com)
